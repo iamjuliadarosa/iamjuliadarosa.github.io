@@ -1,0 +1,15 @@
+#aromantic {
+	background: linear-gradient(
+		to bottom,
+		#309c34,
+		#309c34 20%,
+		#9dce69 20%,
+		#9dce69 40%,
+		#fff 40%,
+		#fff 60%,
+		#a0a0a0 60%,
+		#a0a0a0 80%,
+		#000 80%,
+		#000
+		);
+}

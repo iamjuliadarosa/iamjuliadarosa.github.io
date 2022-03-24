@@ -1,3 +1,4 @@
+//lgbt css flags were created by david wolfpaw and were found at https://plush.dog/pride-flags/pride-flags.html
 #aromantic {
 	background: linear-gradient(
 		to bottom,
@@ -13,3 +14,34 @@
 		#000
 		);
 }
+
+#asexual {
+	background: linear-gradient(
+		to bottom,
+		#000,
+		#000 25%,
+		#a3a3a3 25%,
+		#a3a3a3 50%,
+		#fff 50%,
+		#fff 75%,
+		#820080 75%,
+		#820080
+		);
+}
+
+#genderfluid {
+	background: linear-gradient(
+		to bottom,
+		#fe75a1,
+		#fe75a1 20%,
+		#fff 20%,
+		#fff 40%,
+		#be16d5 40%,
+		#be16d5 60%,
+		#000 60%,
+		#000 80%,
+		#333ebc 80%,
+		#333ebc
+		);
+}
+		

@@ -1,0 +1,67 @@
+:root{
+    --highlight-dark: #309c34;
+    --highlight-light: #9dce69;
+    --text-dark:#151d10;
+    --text-light:#294129;
+    --background-dark: #1f221d;
+    --background-light: #cadac0;
+
+    --main-font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+body {
+    margin: 60px auto;
+    width: 70%;
+    background-color: var(--background-light);
+}
+nav ul, footer ul {
+    font-family:var(--main-font-family);
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: var(--highlight-dark);
+}
+a:hover {
+    color: var(--highlight-light);
+}
+h1 {
+    font-size: 3em;
+    font-family:var(--main-font-family);
+    color: var(--text-dark);
+}
+h2 {
+    font-size: 2em;
+    font-family:var(--main-font-family);
+    color: var(--text-dark);
+}
+h3 {
+    font-size: 1.5em;
+    font-family:var(--main-font-family);
+    color: var(--text-dark);
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    font-family:var(--main-font-family);
+    color: var(--text-light);
+}
+footer {
+    border-top: 1px solid var(--background-dark);
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
